@@ -13,7 +13,7 @@ switch(a > b, {
 	[false] = function()
 		print("hmm, didn't work!")
 	end,
-	["default"] = function()
+	default = function()
 		print("default")
 	end,
 })
